@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9910289F18F07B1A00A4B930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9910289E18F07B1A00A4B930 /* Foundation.framework */; };
+		991028A118F07B1A00A4B930 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991028A018F07B1A00A4B930 /* CoreGraphics.framework */; };
+		991028A318F07B1A00A4B930 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991028A218F07B1A00A4B930 /* UIKit.framework */; };
+		991028A918F07B1A00A4B930 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991028A718F07B1A00A4B930 /* InfoPlist.strings */; };
+		991028AB18F07B1A00A4B930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 991028AA18F07B1A00A4B930 /* main.m */; };
+		991028AF18F07B1A00A4B930 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991028AE18F07B1A00A4B930 /* SSAppDelegate.m */; };
+		991028B218F07B1A00A4B930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991028B018F07B1A00A4B930 /* Main.storyboard */; };
+		991028B518F07B1A00A4B930 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991028B418F07B1A00A4B930 /* SSViewController.m */; };
+		991028B718F07B1A00A4B930 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991028B618F07B1A00A4B930 /* Images.xcassets */; };
+		991028BE18F07B1A00A4B930 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991028BD18F07B1A00A4B930 /* XCTest.framework */; };
+		991028BF18F07B1A00A4B930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9910289E18F07B1A00A4B930 /* Foundation.framework */; };
+		991028C018F07B1A00A4B930 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991028A218F07B1A00A4B930 /* UIKit.framework */; };
+		991028C818F07B1A00A4B930 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991028C618F07B1A00A4B930 /* InfoPlist.strings */; };
+		991028CA18F07B1A00A4B930 /* SSSoundManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991028C918F07B1A00A4B930 /* SSSoundManagerTests.m */; };
+		991028D818F07BEC00A4B930 /* SSAudioHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 991028D518F07BEC00A4B930 /* SSAudioHandler.m */; };
+		991028D918F07BEC00A4B930 /* SSSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 991028D718F07BEC00A4B930 /* SSSpeech.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991028C118F07B1A00A4B930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9910289318F07B1A00A4B930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9910289A18F07B1A00A4B930;
+			remoteInfo = SSSoundManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9910289B18F07B1A00A4B930 /* SSSoundManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSoundManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9910289E18F07B1A00A4B930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		991028A018F07B1A00A4B930 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		991028A218F07B1A00A4B930 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		991028A618F07B1A00A4B930 /* SSSoundManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSoundManager-Info.plist"; sourceTree = "<group>"; };
+		991028A818F07B1A00A4B930 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		991028AA18F07B1A00A4B930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		991028AC18F07B1A00A4B930 /* SSSoundManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSSoundManager-Prefix.pch"; sourceTree = "<group>"; };
+		991028AD18F07B1A00A4B930 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		991028AE18F07B1A00A4B930 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		991028B118F07B1A00A4B930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991028B318F07B1A00A4B930 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		991028B418F07B1A00A4B930 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		991028B618F07B1A00A4B930 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		991028BC18F07B1A00A4B930 /* SSSoundManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSSoundManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991028BD18F07B1A00A4B930 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		991028C518F07B1A00A4B930 /* SSSoundManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSoundManagerTests-Info.plist"; sourceTree = "<group>"; };
+		991028C718F07B1A00A4B930 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		991028C918F07B1A00A4B930 /* SSSoundManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSSoundManagerTests.m; sourceTree = "<group>"; };
+		991028D418F07BEC00A4B930 /* SSAudioHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAudioHandler.h; path = ../SSSoundManager/SSAudioHandler.h; sourceTree = "<group>"; };
+		991028D518F07BEC00A4B930 /* SSAudioHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAudioHandler.m; path = ../SSSoundManager/SSAudioHandler.m; sourceTree = "<group>"; };
+		991028D618F07BEC00A4B930 /* SSSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSSpeech.h; path = ../SSSoundManager/SSSpeech.h; sourceTree = "<group>"; };
+		991028D718F07BEC00A4B930 /* SSSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSSpeech.m; path = ../SSSoundManager/SSSpeech.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9910289818F07B1A00A4B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991028A118F07B1A00A4B930 /* CoreGraphics.framework in Frameworks */,
+				991028A318F07B1A00A4B930 /* UIKit.framework in Frameworks */,
+				9910289F18F07B1A00A4B930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991028B918F07B1A00A4B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991028BE18F07B1A00A4B930 /* XCTest.framework in Frameworks */,
+				991028C018F07B1A00A4B930 /* UIKit.framework in Frameworks */,
+				991028BF18F07B1A00A4B930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9910289218F07B1A00A4B930 = {
+			isa = PBXGroup;
+			children = (
+				991028D318F07BE300A4B930 /* SSSoundManager */,
+				991028A418F07B1A00A4B930 /* SSSoundManager Demo */,
+				991028C318F07B1A00A4B930 /* SSSoundManager Tests */,
+				9910289D18F07B1A00A4B930 /* Frameworks */,
+				9910289C18F07B1A00A4B930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9910289C18F07B1A00A4B930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9910289B18F07B1A00A4B930 /* SSSoundManager.app */,
+				991028BC18F07B1A00A4B930 /* SSSoundManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9910289D18F07B1A00A4B930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9910289E18F07B1A00A4B930 /* Foundation.framework */,
+				991028A018F07B1A00A4B930 /* CoreGraphics.framework */,
+				991028A218F07B1A00A4B930 /* UIKit.framework */,
+				991028BD18F07B1A00A4B930 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991028A418F07B1A00A4B930 /* SSSoundManager Demo */ = {
+			isa = PBXGroup;
+			children = (
+				991028AD18F07B1A00A4B930 /* SSAppDelegate.h */,
+				991028AE18F07B1A00A4B930 /* SSAppDelegate.m */,
+				991028B018F07B1A00A4B930 /* Main.storyboard */,
+				991028B318F07B1A00A4B930 /* SSViewController.h */,
+				991028B418F07B1A00A4B930 /* SSViewController.m */,
+				991028B618F07B1A00A4B930 /* Images.xcassets */,
+				991028A518F07B1A00A4B930 /* Supporting Files */,
+			);
+			name = "SSSoundManager Demo";
+			path = SSSoundManager;
+			sourceTree = "<group>";
+		};
+		991028A518F07B1A00A4B930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991028A618F07B1A00A4B930 /* SSSoundManager-Info.plist */,
+				991028A718F07B1A00A4B930 /* InfoPlist.strings */,
+				991028AA18F07B1A00A4B930 /* main.m */,
+				991028AC18F07B1A00A4B930 /* SSSoundManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991028C318F07B1A00A4B930 /* SSSoundManager Tests */ = {
+			isa = PBXGroup;
+			children = (
+				991028C918F07B1A00A4B930 /* SSSoundManagerTests.m */,
+				991028C418F07B1A00A4B930 /* Supporting Files */,
+			);
+			name = "SSSoundManager Tests";
+			path = SSSoundManagerTests;
+			sourceTree = "<group>";
+		};
+		991028C418F07B1A00A4B930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991028C518F07B1A00A4B930 /* SSSoundManagerTests-Info.plist */,
+				991028C618F07B1A00A4B930 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991028D318F07BE300A4B930 /* SSSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				991028D418F07BEC00A4B930 /* SSAudioHandler.h */,
+				991028D518F07BEC00A4B930 /* SSAudioHandler.m */,
+				991028D618F07BEC00A4B930 /* SSSpeech.h */,
+				991028D718F07BEC00A4B930 /* SSSpeech.m */,
+			);
+			name = SSSoundManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9910289A18F07B1A00A4B930 /* SSSoundManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991028CD18F07B1A00A4B930 /* Build configuration list for PBXNativeTarget "SSSoundManager" */;
+			buildPhases = (
+				9910289718F07B1A00A4B930 /* Sources */,
+				9910289818F07B1A00A4B930 /* Frameworks */,
+				9910289918F07B1A00A4B930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSoundManager;
+			productName = SSSoundManager;
+			productReference = 9910289B18F07B1A00A4B930 /* SSSoundManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991028BB18F07B1A00A4B930 /* SSSoundManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991028D018F07B1A00A4B930 /* Build configuration list for PBXNativeTarget "SSSoundManagerTests" */;
+			buildPhases = (
+				991028B818F07B1A00A4B930 /* Sources */,
+				991028B918F07B1A00A4B930 /* Frameworks */,
+				991028BA18F07B1A00A4B930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991028C218F07B1A00A4B930 /* PBXTargetDependency */,
+			);
+			name = SSSoundManagerTests;
+			productName = SSSoundManagerTests;
+			productReference = 991028BC18F07B1A00A4B930 /* SSSoundManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9910289318F07B1A00A4B930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sam Spencer";
+				TargetAttributes = {
+					991028BB18F07B1A00A4B930 = {
+						TestTargetID = 9910289A18F07B1A00A4B930;
+					};
+				};
+			};
+			buildConfigurationList = 9910289618F07B1A00A4B930 /* Build configuration list for PBXProject "SSSoundManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9910289218F07B1A00A4B930;
+			productRefGroup = 9910289C18F07B1A00A4B930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9910289A18F07B1A00A4B930 /* SSSoundManager */,
+				991028BB18F07B1A00A4B930 /* SSSoundManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9910289918F07B1A00A4B930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991028B718F07B1A00A4B930 /* Images.xcassets in Resources */,
+				991028A918F07B1A00A4B930 /* InfoPlist.strings in Resources */,
+				991028B218F07B1A00A4B930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991028BA18F07B1A00A4B930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991028C818F07B1A00A4B930 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9910289718F07B1A00A4B930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991028B518F07B1A00A4B930 /* SSViewController.m in Sources */,
+				991028D818F07BEC00A4B930 /* SSAudioHandler.m in Sources */,
+				991028AF18F07B1A00A4B930 /* SSAppDelegate.m in Sources */,
+				991028AB18F07B1A00A4B930 /* main.m in Sources */,
+				991028D918F07BEC00A4B930 /* SSSpeech.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991028B818F07B1A00A4B930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991028CA18F07B1A00A4B930 /* SSSoundManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991028C218F07B1A00A4B930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9910289A18F07B1A00A4B930 /* SSSoundManager */;
+			targetProxy = 991028C118F07B1A00A4B930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991028A718F07B1A00A4B930 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991028A818F07B1A00A4B930 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		991028B018F07B1A00A4B930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991028B118F07B1A00A4B930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		991028C618F07B1A00A4B930 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991028C718F07B1A00A4B930 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991028CB18F07B1A00A4B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		991028CC18F07B1A00A4B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991028CE18F07B1A00A4B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSoundManager/SSSoundManager-Prefix.pch";
+				INFOPLIST_FILE = "SSSoundManager/SSSoundManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		991028CF18F07B1A00A4B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSoundManager/SSSoundManager-Prefix.pch";
+				INFOPLIST_FILE = "SSSoundManager/SSSoundManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		991028D118F07B1A00A4B930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSSoundManager.app/SSSoundManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSoundManager/SSSoundManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSSoundManagerTests/SSSoundManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		991028D218F07B1A00A4B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSSoundManager.app/SSSoundManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSoundManager/SSSoundManager-Prefix.pch";
+				INFOPLIST_FILE = "SSSoundManagerTests/SSSoundManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9910289618F07B1A00A4B930 /* Build configuration list for PBXProject "SSSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991028CB18F07B1A00A4B930 /* Debug */,
+				991028CC18F07B1A00A4B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991028CD18F07B1A00A4B930 /* Build configuration list for PBXNativeTarget "SSSoundManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991028CE18F07B1A00A4B930 /* Debug */,
+				991028CF18F07B1A00A4B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991028D018F07B1A00A4B930 /* Build configuration list for PBXNativeTarget "SSSoundManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991028D118F07B1A00A4B930 /* Debug */,
+				991028D218F07B1A00A4B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9910289318F07B1A00A4B930 /* Project object */;
+}
