@@ -24,7 +24,7 @@ Learn more about the project requirements, licensing, and contributions. Check t
 Requires Xcode 5.0.1 for use in any iOS Project. `SSSpeech` Requires a minimum of iOS 7.0 as the deployment target, and `SSAudioHandler` requires a minimum of iOS 5.0. Works with and is optimized for ARC and 64-bit Architecture (arm64).
 
 ## License 
-You are free to make changes and use this in either personal or commercial projects. Attribution is not required, but it appreciated. A little *Thanks!* (or something to that affect) would be much appreciated. If you use SSSoundManager in your app, send an email to contact@iraremedia.com or let us know on Twitter @iRareMedia. See the [full SSSoundManager license here](https://github.com/SamSpencer/SSSoundManager/blob/master/LICENSE.md).
+You are free to make changes and use this in either personal or commercial projects. Attribution is not required, but it appreciated. A little *Thanks!* (or something to that affect) would be much appreciated. If you use SSSoundManager in your app, send an email to contact@iraremedia.com or let us know on Twitter @iRareMedia. See the [full SSSoundManager license here](https://github.com/SamSpencer/SSSoundManager/blob/master/LICENSE).
 
 ## Contributions
 Any contribution is more than welcome! You can contribute through pull requests and issues on GitHub. Learn more [about contributing to the project here](https://github.com/SamSpencer/SSSoundManager/blob/master/CONTRIBUTING.md).
