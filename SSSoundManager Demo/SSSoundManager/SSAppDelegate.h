@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-#import "SSAudioHandler.h"
+#import "SSSoundManager.h"
 
 @interface SSAppDelegate : UIResponder <UIApplicationDelegate>
 

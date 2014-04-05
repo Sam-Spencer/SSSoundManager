@@ -59,6 +59,7 @@
 		991028D518F07BEC00A4B930 /* SSAudioHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAudioHandler.m; path = ../SSSoundManager/SSAudioHandler.m; sourceTree = "<group>"; };
 		991028D618F07BEC00A4B930 /* SSSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSSpeech.h; path = ../SSSoundManager/SSSpeech.h; sourceTree = "<group>"; };
 		991028D718F07BEC00A4B930 /* SSSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSSpeech.m; path = ../SSSoundManager/SSSpeech.m; sourceTree = "<group>"; };
+		991028DA18F0914200A4B930 /* SSSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSSoundManager.h; path = ../SSSoundManager/SSSoundManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +165,7 @@
 		991028D318F07BE300A4B930 /* SSSoundManager */ = {
 			isa = PBXGroup;
 			children = (
+				991028DA18F0914200A4B930 /* SSSoundManager.h */,
 				991028D418F07BEC00A4B930 /* SSAudioHandler.h */,
 				991028D518F07BEC00A4B930 /* SSAudioHandler.m */,
 				991028D618F07BEC00A4B930 /* SSSpeech.h */,

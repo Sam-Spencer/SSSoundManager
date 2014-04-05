@@ -8,8 +8,7 @@
 
 @import UIKit;
 
-#import "SSSpeech.h"
-#import "SSAudioHandler.h"
+#import "SSSoundManager.h"
 
 @interface SSViewController : UIViewController <SSSpeechDelegate>
 
